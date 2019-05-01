@@ -1,0 +1,121 @@
+/* background */
+body{
+background-color: #f5f6f8;
+    margin: 0;
+    font-size: 18px;
+    height: 100%;
+}
+/* menu */
+nav.navbar.bootsnav{
+border: none;
+background: none;
+    float: right;
+    position: absolute;
+}
+nav.navbar.bootsnav ul.nav > li{
+margin-right: 10px;
+
+}
+nav.navbar.bootsnav ul.nav > li:before{
+padding: 15px;
+font-size: 14px;
+font-weight: 600;
+color: #fff;
+position: absolute;
+}
+
+nav.navbar.bootsnav ul.nav > li > a{
+padding: 15px;
+margin: 0;
+color: #D5D6E2;
+text-transform: uppercase;
+}
+.dropdown {
+position:inherit;
+    margin-left: -10%;
+    margin-top: 1px;
+}
+/* sub menu */
+nav.navbar.bootsnav ul.nav > li.dropdown.on > ul{
+top: 100%;
+}
+/* sub menu */
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+border: none;
+}
+/* расположение шрифтов */
+header, footer, .main {
+text-align:center;
+}
+/* расположение шрифтов */
+/* Цвет шапки */
+header {
+    background-color: #49494a;
+    font-size: 14px;
+    height: 45px;
+}
+/* Цвет шапки */
+
+.container {
+     min-height: 100%
+}
+footer {
+    width: 100%;
+position: relative;
+    left: 0px;
+  bottom: 0px;
+  height: 120px;
+  
+height: 10%;
+    padding-top: 1%;
+}
+
+.main {
+flex-grow: 1;
+order: 2;
+margin-top: 1%;
+}
+li {
+    font-size: 14px;
+}
+.shadow {
+    background: #49494a; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+.sss, h4 {
+    text-align: left;
+}
+img {
+    width: 50%; 
+    height: 50%;
+    margin: 1%;
+}
+.navbar-brand {
+    height: auto;
+    width: 250px;
+    margin-top: -10px;
+    margin-bottom: -10%;
+    margin-left: -16px;
+}
+.dropdown-toggle {
+font-size: 16px;
+    float: right;
+    position: relative;
+}
+p {
+    text-align: center;
+}
+.shadow1 {
+     background: #d7dce2; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+.ss1 {
+    text-align: center;
+}
+form {
+    float: right;
+    margin-top: -35px;
+}
